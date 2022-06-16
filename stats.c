@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.c> 
+ * @brief <c code for stats >
  *
- * <Add Extended Description Here>
+ * <The code implement some basic statistic functions given a data set>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Roberto Duarte>
+ * @date <15/06/2022>
  *
  */
 
@@ -27,17 +27,50 @@
 /* Size of the Data Set */
 #define SIZE (40)
 
-void main() {
+
+int main() {
 
   unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
                               114, 88,   45,  76, 123,  87,  25,  23,
                               200, 122, 150, 90,   92,  87, 177, 244,
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
+  return(0);
 
-  /* Other Variable Declarations Go Here */
-  /* Statistics and Printing Functions Go Here */
+}
 
+
+void print_array(unsigned char array[],unsigned int length){
+
+}
+
+unsigned char * sort_array(unsigned char array[],unsigned int length){
+
+  return array;
+}
+
+void print_statistics(int min,int max,float mean,float median){
+
+}
+
+float find_median(unsigned char array[],unsigned int length){
+
+  return median;
+}
+
+float find_mean(unsigned char array[],unsigned int length){
+
+  return sum;
+}
+
+int find_minimum(unsigned char array[],unsigned int length){
+
+  return min;
+}
+
+int find_maximum(unsigned char array[],unsigned int length){
+
+  return max;
 }
 
 /* Add other Implementation File Code Here */
